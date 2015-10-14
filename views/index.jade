@@ -1,0 +1,96 @@
+extends layout
+
+block content
+  .container
+    div.row.buttons
+      .col-md-12
+        button.buttonrow.btn.btn-default
+          input.button(type="checkbox")
+      
+        button.buttonrow#read.btn.btn-default Mark as Read
+      
+        button.buttonrow#unread.btn.btn-default Mark as Unread
+        div.btn-group
+          button.buttonrow.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true')
+            | Apply Label 
+            span.caret
+          ul.dropdown-menu
+            li
+              a#devlabel(href='#') Dev
+            li
+              a#personallabel(href='#') Personal
+            li
+              input.form-control(type='text' name='label')
+              input.form-control(type='submit' value='New Label')
+            li
+              a(href='#') Label
+        div.btn-group
+          button(type='button', data-toggle='dropdown', class='buttonrow btn btn-default dropdown-toggle')
+            | Remove Label 
+            span.caret
+          ul.dropdown-menu
+            li
+              a#removedev(href='#') Dev
+            li
+              a#removepersonal(href='#') Personal
+            li
+              a(href='#') Label
+            li
+              a(href='#') Label
+         button.buttonrow#trash.btn.btn-default
+          i.fa.fa-trash-o
+    div.row.email.unread
+      .col-md-2
+        input(class="status" type="checkbox")
+        i.fa.fa-star-o
+      .col-md-10
+        p You can't input the protocol without calculating the mobile RSS protocol!
+    
+    div.row.email.unread
+      .col-md-2
+        input(class="status" type="checkbox")
+        i.fa.fa-star-o
+      .col-md-10
+        p You can't input the protocol without calculating the mobile RSS protocol!
+    div.row.email.unread
+      .col-md-2
+        input(class="status" type="checkbox")
+        i.fa.fa-star-o
+      .col-md-10       
+        p connecting the system won't do anything, we need to input the mobile AI panel!
+    div.row.email.unread
+      .col-md-2
+        input(class="status" type="checkbox")
+        i.fa.fa-star-o 
+      .col-md-10         
+        p Use the 1080p HTTP feed, then you can parse the cross-platform hard drive!
+    div.row.email.unread
+      .col-md-2
+        input(class="status" type="checkbox")
+        i.fa.fa-star-o
+      .col-md-10          
+        p We need to program the primary TCP hard drive!
+    div.row.email.unread
+      .col-md-2
+        input(class="status" type="checkbox")
+        i.fa.fa-star-o
+      .col-md-10
+        p If we override the interface, we can get to the HTTP feed through the virtual EXE interface!
+
+  
+
+
+
+
+
+
+
+
+    script(src='/javascripts/scripts.js')
+    
+
+
+
+
+
+

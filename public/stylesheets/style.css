@@ -1,0 +1,54 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.buttonrow {
+	margin-right: 5px;
+	background-color: #D3D3D3;
+}
+
+.status {
+	margin-right: 5em;
+}
+.email {
+	padding-bottom: 3px;
+	padding-top: 5px; 
+	border-bottom: 1px solid;
+	border-bottom-color: black;
+}
+
+.read {
+	background-color: white;
+	font-weight: bold;
+}
+
+.unread {
+	background-color: #D3D3D3;
+}
+
+.buttons {
+	margin-bottom: 5px;
+}
+
+.fa-star-o {
+	margin-left: 10px;
+	padding-top: 7px;
+}
+
+.fa-star {
+	margin-left: 10px;
+	padding-top: 7px;
+}
+
+.yellow {
+	background-color: #FFFFCC;
+}
+
+.label {
+	margin-left: 5px;
+}
